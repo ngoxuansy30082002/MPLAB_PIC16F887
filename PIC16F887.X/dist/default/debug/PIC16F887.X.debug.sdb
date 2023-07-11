@@ -1,0 +1,489 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_blink_led.c
+[e E1292 . `uc
+Led_init 0
+Led_wait 1
+Led_change 2
+Led_off 3
+]
+"21
+[e E1305 . `uc
+timer0_init 0
+timer0_start 1
+timer0_end 2
+]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_btn1.c
+[e E1318 . `uc
+btn1_init 0
+btn1_high 1
+btn1_debounce 2
+btn1_low 3
+btn1_done 4
+]
+"54
+[e E1292 . `uc
+Led_init 0
+Led_wait 1
+Led_change 2
+Led_off 3
+]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_btn2.c
+[e E1332 . `uc
+btn2_init 0
+btn2_high 1
+btn2_debounce 2
+btn2_low 3
+btn2_done 4
+]
+"54
+[e E1346 . `uc
+led7seg_init 0
+led7seg_1 1
+led7seg_2 2
+led7seg_3 3
+led7seg_4 4
+led7seg_wait 5
+]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_led7seg.c
+[e E1346 . `uc
+led7seg_init 0
+led7seg_1 1
+led7seg_2 2
+led7seg_3 3
+led7seg_4 4
+led7seg_wait 5
+]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_timer0.c
+[e E1305 . `uc
+timer0_init 0
+timer0_start 1
+timer0_end 2
+]
+"8 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_uart.c
+[e E1361 . `uc
+uart_init 0
+uart_getdata 1
+uart_senddata 2
+uart_wait 3
+]
+[e E1367 . `uc
+wait_receive 0
+data_receive 1
+check_error 2
+do_action 3
+]
+"106
+[e E1346 . `uc
+led7seg_init 0
+led7seg_1 1
+led7seg_2 2
+led7seg_3 3
+led7seg_4 4
+led7seg_wait 5
+]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_adc.c
+[e E1382 . `uc
+adc_init 0
+adc_read 1
+adc_done 2
+adc_wait 3
+]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\main.c
+[v _system_init system_init `(v  1 e 1 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+"15 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_adc.c
+[v _read_value read_value `(i  1 e 2 0 ]
+"28 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_led7seg.c
+[v _handle_value handle_value `(v  1 e 1 0 ]
+"35
+[v _display display `(v  1 e 1 0 ]
+"39
+[v _app_led7_init app_led7_init `(v  1 e 1 0 ]
+"44
+[v _app_led7_task app_led7_task `(v  1 e 1 0 ]
+"19 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_timer0.c
+[v _timer_isr timer_isr `II(v  1 e 1 0 ]
+"19 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_uart.c
+[v _common_init common_init `(v  1 e 1 0 ]
+"30
+[v _transmit_init transmit_init `(v  1 e 1 0 ]
+"36
+[v _receive_init receive_init `(v  1 e 1 0 ]
+"42
+[v _getdata getdata `(uc  1 e 1 0 ]
+"51
+[v _send_chardata send_chardata `(v  1 e 1 0 ]
+"56
+[v _send_stringdata send_stringdata `(v  1 e 1 0 ]
+"61
+[v _check_err check_err `(v  1 e 1 0 ]
+"77
+[v _action action `(v  1 e 1 0 ]
+"112
+[v _app_uart_init app_uart_init `(v  1 e 1 0 ]
+"119
+[v _app_uart_task app_uart_task `(v  1 e 1 0 ]
+"59 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S219 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482
+[s S228 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S233 . 1 `S219 1 . 1 0 `S228 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES233  1 e 1 @11 ]
+"1133
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1140
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1238
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1245
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S387 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1276
+[s S392 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S401 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S404 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S407 . 1 `S387 1 . 1 0 `S392 1 . 1 0 `S401 1 . 1 0 `S404 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES407  1 e 1 @31 ]
+"1346
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+[s S24 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1495
+[u S33 . 1 `S24 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES33  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S49 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 TRISE3 1 0 :1:3 
+]
+"1677
+[u S54 . 1 `S49 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES54  1 e 1 @137 ]
+"2346
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"2642
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2970
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2977
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+[s S366 . 1 `uc 1 ANS0 1 0 :1:0 
+`uc 1 ANS1 1 0 :1:1 
+`uc 1 ANS2 1 0 :1:2 
+`uc 1 ANS3 1 0 :1:3 
+`uc 1 ANS4 1 0 :1:4 
+`uc 1 ANS5 1 0 :1:5 
+`uc 1 ANS6 1 0 :1:6 
+`uc 1 ANS7 1 0 :1:7 
+]
+"3404
+[u S375 . 1 `S366 1 . 1 0 ]
+[v _ANSELbits ANSELbits `VES375  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3672
+[v _BRG16 BRG16 `VEb  1 e 0 @3131 ]
+"3699
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"3840
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3900
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3909
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @249 ]
+"4005
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"4044
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4107
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"4110
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"4113
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"4116
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"4125
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"4128
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"4173
+[v _RCIDL RCIDL `VEb  1 e 0 @3134 ]
+"4176
+[v _RCIE RCIE `VEb  1 e 0 @1125 ]
+"4179
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"4233
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"4263
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"4317
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"4365
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"4470
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"4473
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"4533
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"4542
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"4545
+[v _TXIE TXIE `VEb  1 e 0 @1124 ]
+"4548
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"4668
+[v _nRBPU nRBPU `VEb  1 e 0 @1039 ]
+[s S169 . 3 `E1346 1 state 1 0 `i 1 value 2 1 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_adc.c
+[v _app_adcData app_adcData `S169  1 e 3 0 ]
+"6
+[v _count_delay count_delay `i  1 e 2 0 ]
+[s S106 . 3 `E1292 1 state 1 0 `i 1 led_value 2 1 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_blink_led.c
+[v _appledData appledData `S106  1 e 3 0 ]
+[s S133 . 3 `E1318 1 state 1 0 `i 1 btn1_count 2 1 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_btn1.c
+[v _appBtn1Data appBtn1Data `S133  1 e 3 0 ]
+[s S158 . 3 `E1332 1 state 1 0 `i 1 btn2_count 2 1 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_btn2.c
+[v _appBtn2Data appBtn2Data `S158  1 e 3 0 ]
+"5
+[v _pressed pressed `i  1 e 2 0 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_led7seg.c
+[v _appled7Data appled7Data `S169  1 e 3 0 ]
+"23
+[v _count_time count_time `i  1 e 2 0 ]
+"24
+[v _values values `[5]i  1 e 10 0 ]
+"25
+[v _next_index_led next_index_led `i  1 e 2 0 ]
+"26
+[v _seg_data seg_data `[10]ui  1 e 20 0 ]
+[s S114 . 5 `E1305 1 state 1 0 `i 1 timer0_count 2 1 `i 1 timer0_delayValue 2 3 ]
+"4 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_timer0.c
+[v _appTimer0Data appTimer0Data `S114  1 e 5 0 ]
+[s S282 . 4 `E1361 1 state 1 0 `E1367 1 receive_state 1 1 `uc 1 is_err 1 2 `uc 1 value 1 3 ]
+"8 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_uart.c
+[v _app_uartData app_uartData `S282  1 e 4 0 ]
+"10
+[v _do_actionn do_actionn `i  1 e 2 0 ]
+"11
+[v _datas datas `[6]uc  1 e 6 0 ]
+"12
+[v _index_data index_data `i  1 e 2 0 ]
+"14
+[v _data_receiving data_receiving `i  1 e 2 0 ]
+"15
+[v _pre_data pre_data `uc  1 e 1 0 ]
+"16
+[v _cur_data cur_data `uc  1 e 1 0 ]
+"17
+[v _pass pass `i  1 e 2 0 ]
+"25 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"45
+} 0
+"4
+[v _system_init system_init `(v  1 e 1 0 ]
+{
+"23
+} 0
+"119 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_uart.c
+[v _app_uart_task app_uart_task `(v  1 e 1 0 ]
+{
+"164
+} 0
+"56
+[v _send_stringdata send_stringdata `(v  1 e 1 0 ]
+{
+[v send_stringdata@s s `*.24uc  1 a 1 wreg ]
+[v send_stringdata@s s `*.24uc  1 a 1 wreg ]
+[v send_stringdata@s s `*.24uc  1 a 1 3 ]
+"59
+} 0
+"51
+[v _send_chardata send_chardata `(v  1 e 1 0 ]
+{
+[v send_chardata@data data `uc  1 a 1 wreg ]
+[v send_chardata@data data `uc  1 a 1 wreg ]
+[v send_chardata@data data `uc  1 a 1 2 ]
+"54
+} 0
+"42
+[v _getdata getdata `(uc  1 e 1 0 ]
+{
+"49
+} 0
+"77
+[v _action action `(v  1 e 1 0 ]
+{
+[v action@data data `uc  1 a 1 wreg ]
+"105
+[v action@d d `i  1 a 2 14 ]
+"104
+[v action@c c `i  1 a 2 12 ]
+"103
+[v action@b b `i  1 a 2 10 ]
+"102
+[v action@a a `i  1 a 2 8 ]
+"77
+[v action@data data `uc  1 a 1 wreg ]
+[v action@data data `uc  1 a 1 16 ]
+"110
+} 0
+"61
+[v _check_err check_err `(v  1 e 1 0 ]
+{
+"62
+[v check_err@i i `i  1 a 2 2 ]
+"75
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 0 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"112 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_uart.c
+[v _app_uart_init app_uart_init `(v  1 e 1 0 ]
+{
+"117
+} 0
+"30
+[v _transmit_init transmit_init `(v  1 e 1 0 ]
+{
+"34
+} 0
+"36
+[v _receive_init receive_init `(v  1 e 1 0 ]
+{
+"40
+} 0
+"19
+[v _common_init common_init `(v  1 e 1 0 ]
+{
+"28
+} 0
+"44 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_led7seg.c
+[v _app_led7_task app_led7_task `(v  1 e 1 0 ]
+{
+"110
+} 0
+"28
+[v _handle_value handle_value `(v  1 e 1 0 ]
+{
+[v handle_value@value value `i  1 p 2 10 ]
+"33
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 9 ]
+[v ___awmod@counter counter `uc  1 a 1 8 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 4 ]
+[v ___awmod@dividend dividend `i  1 p 2 6 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"41
+} 0
+"35 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_led7seg.c
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@i i `i  1 p 2 2 ]
+"37
+} 0
+"39
+[v _app_led7_init app_led7_init `(v  1 e 1 0 ]
+{
+"42
+} 0
+"19 D:\LapTrinh PIC C\MPLAB_Code\PIC16F887.X\source_timer0.c
+[v _timer_isr timer_isr `II(v  1 e 1 0 ]
+{
+"25
+} 0
